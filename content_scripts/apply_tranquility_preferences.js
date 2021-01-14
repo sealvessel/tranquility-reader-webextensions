@@ -180,8 +180,8 @@ function applyReadingWidthPreferences() {
         }
         else {
             console.log("Applying Reading Width Preferences");
-            cdiv.style.width = result.tranquility_reading_width + "%"; 
-            menu_div.style.width = result.tranquility_reading_width + "%"; 
+            cdiv.style.width = result.tranquility_reading_width + ""; 
+            menu_div.style.width = result.tranquility_reading_width + ""; 
             resizeImages(document, result.tranquility_reading_width);
         }
     };
